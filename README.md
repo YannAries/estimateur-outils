@@ -1,10 +1,10 @@
-﻿
+
 
 # Estimateur de prix de location d'outils | Tool rental price estimator
  
 Simple estimateur de prix de location d'outils pour petite structure ou entrepreneur.
 
-Fonctionnalités de base tels que choix de catégorie ou durée en jours avec la possibilité d'estimer le prix aléatoirement et de le réinitialiser à 1$.
+Fonctionnalités de base tels que choix de catégorie ou durée en jours avec la possibilité d'estimer le prix aléatoirement et de le réinitialiser à une durée de 1 jour.
 
 Logiciels et langages utilisés :
 * <img src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
@@ -22,5 +22,9 @@ Système d'exploitation :
 ```bash
 sudo /opt/lampp/lampp start
 ```
+## Aperçu
+![Estimateur prix](img/print-1.png)
+
+![Estimateur prix 2](img/print-2.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
