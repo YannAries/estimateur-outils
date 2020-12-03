@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.dragAndDrop": true,
+    "phpserver.browser": "chrome",
+    "php.suggest.basic": false,
+    "php.validate.enable": false
+}

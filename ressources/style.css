@@ -1,0 +1,92 @@
+body {
+  background: #AEE;
+}
+
+a {
+  background-color: #00F;
+  color: #9FF;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 15px;
+  transition: 0.5s background;
+}
+
+a:hover {
+  background-color: #000;
+}
+
+a:active {
+  background-color: #999999;
+}
+
+button > em {
+  color: #F00;
+  font-weight: 700;
+}
+
+p:nth-last-child(1) > button{
+  font-size: 120%;
+  padding: 0.2em 0.4em;
+}
+
+form > p {
+  margin: 15px 20px;
+}
+
+input[type="number"], .number{
+  margin-right: 15px;
+  text-align: center;
+  width: 50px;
+}
+
+input:invalid {
+  background:#FAA;
+  color: #F00;
+  font-weight: 700;
+  outline: dotted #F00;
+  outline-offset: 3px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.message > em {
+  background: #000;
+  border-radius: 5px;
+  color:#FF0;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  margin: 2px;
+  padding: 2px 6px;
+}
+
+option {
+  font-weight: 700;
+  vertical-align: top;
+}
+
+option[value="A"] {
+  background: hsl(150, 70%, 60%);
+}
+
+option[value="W"] {
+  background: hsl(210, 70%, 60%);;
+}
+
+option[value="P"] {
+  background: hsl(270, 70%, 60%);;
+}
+
+select {
+  font-weight: 700;
+}
